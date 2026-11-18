@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Student Task Manager",
+    "slug": "student-task-manager",
+    "scheme": "studenttaskmanager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#4F46E5",
+          "defaultChannel": "task-reminders"
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}

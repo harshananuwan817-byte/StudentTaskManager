@@ -1,0 +1,1 @@
+Optional assets folder. The application uses vector icons and does not require image assets.
